@@ -1,7 +1,7 @@
 {
   "[javascript]": {
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "never"
+      "source.organizeImports": false
     }
   }
 }

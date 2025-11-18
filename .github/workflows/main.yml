@@ -13,6 +13,7 @@ jobs:
       NOTION_READER_DATABASE_ID: ${{ secrets.NOTION_READER_DATABASE_ID }}
       NOTION_FEEDS_DATABASE_ID: ${{ secrets.NOTION_FEEDS_DATABASE_ID }}
       RUN_FREQUENCY: 3600 # in seconds
+      ACTIONS_STEP_DEBUG: true
     steps:
       - name: Setup Node
         uses: actions/setup-node@v2
